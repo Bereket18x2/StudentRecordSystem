@@ -1,0 +1,17 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Compiled class files
+*.class
+target/
+
+# Binary/serialized data files (generated at runtime)
+data/*.dat
+data/*.ser
+data/report.txt
+data/backup/
+
+# macOS
+.DS_Store

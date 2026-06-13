@@ -1,0 +1,8 @@
+STU001|Abebe Girma|Computer Science|3.85
+STU002|Tigist Haile|Electrical Engineering|3.60
+STU003|Yonas Bekele|Information Technology|2.95
+STU004|Marta Tesfaye|Software Engineering|3.72
+STU005|Dawit Alemu|Mechanical Engineering|2.40
+STU006|Hana Worku|Data Science|3.90
+STU007|Biruk Tadesse|Civil Engineering|3.10
+STU008|Selam Mekonnen|Computer Science|3.45

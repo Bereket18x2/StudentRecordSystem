@@ -1,5 +1,5 @@
 package com.studentrecord.model;
-
+//// Model class representing a Student entity with Serializable support
 import java.io.Serializable;
 
 

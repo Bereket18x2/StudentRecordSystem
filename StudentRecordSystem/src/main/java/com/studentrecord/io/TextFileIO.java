@@ -1,5 +1,5 @@
 package com.studentrecord.io;
-
+// Handles text file reading and writing using Scanner and PrintWriter
 import com.studentrecord.model.Student;
 import com.studentrecord.util.FilePathConfig;
 
@@ -8,16 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * Handles reading and writing students using plain text files.
- *
- * WHY: Text files are human-readable. You can open students.txt in Notepad
- * and understand exactly what's stored. Great for debugging and portability.
- *
- * We use:
- * - PrintWriter (wrapped in BufferedWriter) for efficient writing
- * - Scanner for easy line-by-line reading
- */
+
 public class TextFileIO {
 
     private final String filePath;

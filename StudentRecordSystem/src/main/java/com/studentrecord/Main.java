@@ -1,5 +1,5 @@
 package com.studentrecord;
-
+// Entry point for the Student Record Management System
 import com.studentrecord.io.BackupService;
 import com.studentrecord.model.Student;
 import com.studentrecord.service.ReportService;

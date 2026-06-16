@@ -1,5 +1,5 @@
 package com.studentrecord.service;
-
+// Service class handling all CRUD operations and business logic
 import com.studentrecord.io.BinaryFileIO;
 import com.studentrecord.io.SerialFileIO;
 import com.studentrecord.io.TextFileIO;

@@ -1,5 +1,5 @@
 package com.studentrecord.service;
-
+// Generates student reports including GPA statistics
 import com.studentrecord.model.Student;
 import com.studentrecord.util.FilePathConfig;
 
@@ -7,9 +7,9 @@ import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-/**
- * Generates a summary report and writes it to data/report.txt
- */
+
+ // Generates a summary report and writes it to data/report.txt
+
 public class ReportService {
 
     private final StudentService studentService;

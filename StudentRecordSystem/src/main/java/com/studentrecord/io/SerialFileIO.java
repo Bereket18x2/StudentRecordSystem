@@ -1,5 +1,5 @@
 package com.studentrecord.io;
-
+// Handles object serialization using ObjectInputStream and ObjectOutputStream
 import com.studentrecord.model.Student;
 import com.studentrecord.util.FilePathConfig;
 
@@ -7,20 +7,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Handles student persistence using Java Object Serialization.
- *
- * WHY serialization vs. the other two approaches?
- * - We write the entire Student object directly — no need to manually handle
- *   each field. Java figures out the structure from the class definition.
- * - Best when your object has lots of fields and you don't want the verbosity
- *   of DataOutputStream (writeUTF for every field).
- * - The catch: both writer and reader must have the same Student class
- *   (which is why serialVersionUID in Student.java matters).
- *
- * We serialize the whole List<Student> at once — one object write/read.
- * This is the simplest approach and works perfectly for moderate data sizes.
- */
+
 public class SerialFileIO {
 
     private final String filePath;

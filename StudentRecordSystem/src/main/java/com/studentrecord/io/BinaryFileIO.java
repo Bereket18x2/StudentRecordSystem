@@ -1,5 +1,5 @@
 package com.studentrecord.io;
-
+// Handles binary file reading and writing using DataInputStream and DataOutputStream
 import com.studentrecord.model.Student;
 import com.studentrecord.util.FilePathConfig;
 
@@ -10,12 +10,10 @@ import java.util.List;
 /**
  * Handles reading and writing students in binary format using
  * DataInputStream and DataOutputStream.
- *
  * WHY binary over text?
  * - Smaller file sizes (doubles stored as 8 raw bytes, not "3.75" as 4 chars)
  * - Slightly faster I/O since no String parsing is needed on read
  * - Not human-readable (trade-off: harder to debug manually)
- *
  * We write each field in a fixed order and MUST read them back in the same order.
  * This is the most important rule with DataInputStream/DataOutputStream.
  */
